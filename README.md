@@ -13,3 +13,4 @@ Il est à noter que pour ajouter initdev au path,à supposé que notre fichier i
 Puis pour l'avoir dans le path de façon permanente , on edite le fichier .bashrc qui se trouve dans le $HOME en faisant:
 "cd" puis "gedit .bashrc"
 Puis le fichier s'ouvre dans editeur de texte et on ajoute la ligne précédente :"export PATH=$HOME/.initdev:$PATH"
+Il suffit alors de faire appelle à "initdev" comme une commande: initdev -arg1 -arg2 -arg3.
