@@ -32,7 +32,7 @@ mkdir "$1"
 cd $1
 touch main.c
 echo " Projet en C "
-elif [ "$3" = "--cpp" ]
+elif [ "$3" = "--cpp" ] || [ "$3" = "--C++" ]
 then 
 mkdir "$1"
 cd $1
