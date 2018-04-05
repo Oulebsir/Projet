@@ -5,8 +5,8 @@ echo "expected arguments, please check the help : initdev --help."
 exit 1;
 elif [ "$1" = "--help" ]
 then echo "Name: $0 est une application permettant d'entamer la création d'un nouveau projet, donc d'un répertoire contenant les fichiers nécessaires;
-Syntax: initdev *nomproj *licenses --typeprojet ;
-Arguments: --c : Projet en C
+Syntax: initdev *nomproj *licenses --Type_projet ;
+Type_projet: --c : Projet en C
            --cpp ou C++ : Projet en C++
            --py         : Projet en python
            --latex      : Projet de rédaction en Latex
